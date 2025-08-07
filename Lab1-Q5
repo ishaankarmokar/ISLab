@@ -1,0 +1,18 @@
+Known-Plaintext Attack
+John used a known-plaintext attack because he had a piece of ciphertext ("CIW") and its corresponding plaintext
+("yes"). By comparing these two, he was able to determine the encryption key.
+
+Deciphering the Plaintext: "TREASUSE"
+John discovered that the key was a left shift of 4. He applied this same shift to the new ciphertext "XVIEWYWI"
+to find the plaintext.
+
+X - 4 positions = T
+V - 4 positions = R
+I - 4 positions = E
+E - 4 positions = A
+W - 4 positions = S
+Y - 4 positions = U
+W - 4 positions = S
+I - 4 positions = E
+
+The decrypted plaintext is "TREASUSE"
