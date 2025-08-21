@@ -26,9 +26,3 @@ cipher_decrypt = AES.new(key, AES.MODE_ECB)
 decrypted_message = unpad(cipher_decrypt.decrypt(ciphertext), AES.block_size)
 
 print(f"Decrypted message: {decrypted_message}")
-
-# Verification
-if decrypted_message == message:
-    print("\nVerification successful: The decrypted message matches the original.")
-else:
-    print("\nVerification failed: The decrypted message does not match the original.")
