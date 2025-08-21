@@ -33,3 +33,8 @@ print("Plain text:", message.decode())
 print("Ciphertext:", hexlify(ciphertext).decode())
 print("Decrypted text:", decrypted.decode())
 print("Successful" if decrypted == message else "Unsuccessful")
+
+'''Plain text: Secure Transactions
+Ciphertext: 1921a7822cc6ab74ef8863b2c46c4e3e8ca6e3
+Decrypted text: Secure Transactions
+Successful'''
